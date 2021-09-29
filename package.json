@@ -1,0 +1,22 @@
+{
+  "name": "encryptfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "encrypt": "ts-node src/encrypt.ts",
+    "decrypt": "ts-node src/decrypt.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "@types/yargs": "^17.0.3"
+  }
+}
